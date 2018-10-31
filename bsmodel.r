@@ -1,3 +1,5 @@
+# Rによるブラック・ショールズ・モデルの計算
+# calclaotion of Black-Scholes equation using R
 bsmodel <- function(s, k, vol, t, r, q) {
   if (t <= 0.0) {
     data <-c(0.0, (s-k))
