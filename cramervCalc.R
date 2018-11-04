@@ -1,5 +1,5 @@
 # データを読み込む
-df <- read.csv("/Users/k-fukuzawa/Dropbox/bin/yanglao.csv", header = T, row.names = 1, fileEncoding = "UTF-8")
+df <- read.csv("/directory/file.csv", header = T, row.names = 1, fileEncoding = "UTF-8")
 nrow(df)
 ncol(df)
 
